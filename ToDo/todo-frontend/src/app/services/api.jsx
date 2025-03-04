@@ -13,6 +13,6 @@ export const createTask = (data) => api.post("/tasks", data);
 export const updateTask = (id, data) => api.put(`/tasks/${id}`, data);
 export const deleteTask = (id) => api.delete(`/tasks/${id}`);
 export const toggleComplete = (id, completed) =>
-  api.put(`/taks/${id}`, { completed: !completed });
+  api.put(`/tasks/${id}`, { completed: !completed });
 
 export default api;
