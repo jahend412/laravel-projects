@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Task, TaskFormData } from "../types";
+import { Task, TaskFormData } from "@/types";
 
 const api = axios.create({
   baseURL: "http://localhost:8000/api",
